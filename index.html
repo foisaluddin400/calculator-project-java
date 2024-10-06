@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="main">
+        <div class="container">
+            <div class="input">
+                <input type="text" id="input" maxlength="8" disabled>
+            </div>
+            <div>
+                <button class="btn" value="C" onclick="delett()">C</button>
+                <button class="btn" value="(" onclick="buttonn('(')">(</button>
+                <button class="btn" value=")" onclick="buttonn(')')">)</button>
+                <button class="btn1" value="/" onclick="buttonn('/')">/</button>
+            </div>
+            <div>
+                <button type="button" class="btn2" value="7" onclick="buttonn('7')">7</button>
+                <button type="button" class="btn2" value="8" onclick="buttonn('8')">8</button>
+                <button class="btn2" value="9" onclick="buttonn('9')">9</button>
+                <button class="btn1" value="*" onclick="buttonn('*')">x</button>
+            </div>
+            <div>
+                <button class="btn2" value="4" onclick="buttonn('4')">4</button>
+                <button class="btn2" value="5" onclick="buttonn('5')">5</button>
+                <button class="btn2" value="6" onclick="buttonn('6')">6</button>
+                <button class="btn1" value="-" onclick="buttonn('-')">-</button>
+            </div>
+            <div>
+                <button class="btn2" value="1" onclick="buttonn('1')">1</button>
+                <button class="btn2" value="2" onclick="buttonn('2')">2</button>
+                <button class="btn2" value="3" onclick="buttonn('3')">3</button>
+                <button class="btn1" value="+" onclick="buttonn('+')">+</button>
+            </div>
+            <div>
+                <button class="btn4" value="0" onclick="buttonn('0')">0</button>
+                <button class="btn2" value="%" onclick="buttonn('%')">%</button>
+                <button class="btn2" value="." onclick="buttonn('.')">.</button>
+                <button type="button" class="btn1" onclick="calculation()">=</button>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+    <script src="index.js"></script>
+</body>
+</html>
